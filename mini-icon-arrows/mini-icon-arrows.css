@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'mini-icon-arrows';
+	src:url('mini-icon-arrows.eot?-boq51');
+	src:url('mini-icon-arrows.eot?#iefix-boq51') format('embedded-opentype'),
+		url('mini-icon-arrows.woff?-boq51') format('woff'),
+		url('mini-icon-arrows.ttf?-boq51') format('truetype'),
+		url('mini-icon-arrows.svg?-boq51#mini-icon-arrows') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'mini-icon-arrows';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+	content: "\e600";
+}
+.icon-arrow-down:before {
+	content: "\e601";
+}
+.icon-arrow-up:before {
+	content: "\e602";
+}
+.icon-arrow-right:before {
+	content: "\e603";
+}
+.icon-minus:before {
+	content: "\e604";
+}
+.icon-plus:before {
+	content: "\e605";
+}
